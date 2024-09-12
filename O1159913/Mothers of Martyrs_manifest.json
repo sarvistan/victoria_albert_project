@@ -1,0 +1,114 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O1159913/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Mothers of Martyrs",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Mothers of Martyrs"
+    },
+    {
+      "label": "Object Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Photograph, from the series 'Mothers of Martyrs', digital c-type print, by Newsha Tavakolian, Iran, 2006"
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Digital c-type print"
+    },
+    {
+      "label": "Place",
+      "value": "Iran (photographed)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "E.358-2010"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O1159913/manifest.json"
+    }
+  ],
+  "description": "Photograph, from the series 'Mothers of Martyrs', digital c-type print, by Newsha Tavakolian, Iran, 2006",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O1159913/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O1159913/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2011EM7726/full/!100,100/0/default.jpg",
+          "height": 1684,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O1159913/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2011EM7726/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1684,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2011EM7726",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O1159913/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O1159913/canvas/c1",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2010EA5197/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O1159913/canvas/c1/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2010EA5197/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2010EA5197",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O1159913/canvas/c1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O1159913",
+    "@format": "text/html"
+  }
+}

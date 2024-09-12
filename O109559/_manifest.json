@@ -1,0 +1,82 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O109559/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Sherbet spoon",
+  "metadata": [
+    {
+      "label": "Object Type",
+      "value": "Sherbet spoon"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Spoon, carved pearwood, Abadeh, Qajar Iran, 1860-1865"
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Carved wood"
+    },
+    {
+      "label": "Place",
+      "value": "Abadah (made)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "934-1869"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O109559/manifest.json"
+    }
+  ],
+  "description": "Spoon, carved pearwood, Abadeh, Qajar Iran, 1860-1865",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O109559/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O109559/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2012FR2824/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1806,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O109559/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2012FR2824/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1806,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2012FR2824",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O109559/canvas/c0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O109559",
+    "@format": "text/html"
+  }
+}

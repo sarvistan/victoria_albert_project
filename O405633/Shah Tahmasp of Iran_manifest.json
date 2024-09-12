@@ -1,0 +1,114 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O405633/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Shah Tahmasp of Iran",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Shah Tahmasp of Iran"
+    },
+    {
+      "label": "Object Type",
+      "value": "Painting"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Painting, Shah Tahmasp of Iran, by Sahifa Banu, opaque watercolour and gold on paper, Mughal, early 17th century"
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Painted in opaque watercolour on paper"
+    },
+    {
+      "label": "Place",
+      "value": "Mughal Empire (made)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "IM.117-1921"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O405633/manifest.json"
+    }
+  ],
+  "description": "Painting, Shah Tahmasp of Iran, by Sahifa Banu, opaque watercolour and gold on paper, Mughal, early 17th century",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O405633/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O405633/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2013GB1012/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1762,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O405633/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2013GB1012/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1762,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2013GB1012",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O405633/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O405633/canvas/c1",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2006AW8736/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1956,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O405633/canvas/c1/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2006AW8736/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1956,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2006AW8736",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O405633/canvas/c1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O405633",
+    "@format": "text/html"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O1754795/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Untitled from the Az Div o Dad series ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Untitled from the Az Div o Dad series "
+    },
+    {
+      "label": "Object Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Photograph by Kaveh Golestan, 'Untitled', from the Az Div o Dad polaroid series, 1976."
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Internal dye diffusion transfer print\r\nVintage Polaroid."
+    },
+    {
+      "label": "Place",
+      "value": "Iran (photographed)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "PH.466-2024"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O1754795/manifest.json"
+    }
+  ],
+  "description": "Photograph by Kaveh Golestan, 'Untitled', from the Az Div o Dad polaroid series, 1976.",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O1754795/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O1754795/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2024NV0820/full/!100,100/0/default.jpg",
+          "height": 3000,
+          "width": 2544,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O1754795/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2024NV0820/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 2544,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2024NV0820",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O1754795/canvas/c0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O1754795",
+    "@format": "text/html"
+  }
+}

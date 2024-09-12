@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O282869/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Roses from Qajar Iran",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Roses from Qajar Iran"
+    },
+    {
+      "label": "Object Type",
+      "value": "Tile"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Middle East, Ceramic, Tile; Tile, glazed earthenware, central medallion design of rose bouquet on white ground, with corner designs of yellow scrollwork on blue ground, Tehran or Shiraz, Iran, 1850-1870"
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Buff-coloured earthenware, tin-opacified white slip, polychrome painted in turquoise, pink, purple, green, blue and yellow with manganese black outlines, glazed"
+    },
+    {
+      "label": "Place",
+      "value": "Tehran (made)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "1531:30-1876"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O282869/manifest.json"
+    }
+  ],
+  "description": "Middle East, Ceramic, Tile; Tile, glazed earthenware, central medallion design of rose bouquet on white ground, with corner designs of yellow scrollwork on blue ground, Tehran or Shiraz, Iran, 1850-1870",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O282869/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O282869/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2014HE9471/full/!100,100/0/default.jpg",
+          "height": 2119,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O282869/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2014HE9471/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2119,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2014HE9471",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O282869/canvas/c0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O282869",
+    "@format": "text/html"
+  }
+}

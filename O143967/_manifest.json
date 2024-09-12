@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O143967/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Bowl",
+  "metadata": [
+    {
+      "label": "Object Type",
+      "value": "Bowl"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Earthenware bowl with decoration deeply incised through a white slip and covered with a clear glaze. Painted in brown and green. Iran, 1100-1200"
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Earthenware covered with a white slip and then incised and carved. Painted with iron oxide."
+    },
+    {
+      "label": "Place",
+      "value": "Iran (made)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "CIRC.1398-1923"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O143967/manifest.json"
+    }
+  ],
+  "description": "Earthenware bowl with decoration deeply incised through a white slip and covered with a clear glaze. Painted in brown and green. Iran, 1100-1200",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O143967/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O143967/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2008BT0019/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1875,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O143967/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2008BT0019/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1875,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2008BT0019",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O143967/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O143967/canvas/c1",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2017KB8381/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1848,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O143967/canvas/c1/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2017KB8381/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1848,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2017KB8381",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O143967/canvas/c1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O143967",
+    "@format": "text/html"
+  }
+}

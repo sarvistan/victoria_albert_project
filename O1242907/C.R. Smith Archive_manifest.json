@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O1242907/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "C.R. Smith Archive",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "C.R. Smith Archive"
+    },
+    {
+      "label": "Object Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Albumen photograph, captioned 'Throne of H.M. Shah of Persia', mounted in leather-bound album, part of the C.R. Smith archive, photographed by Antoin Sevruguin, assembled Sultanabad (modern Arak), Iran, 1895 - 1900"
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "photography"
+    },
+    {
+      "label": "Place",
+      "value": "Iran (photographed)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "E.339:2-2010"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O1242907/manifest.json"
+    }
+  ],
+  "description": "Albumen photograph, captioned 'Throne of H.M. Shah of Persia', mounted in leather-bound album, part of the C.R. Smith archive, photographed by Antoin Sevruguin, assembled Sultanabad (modern Arak), Iran, 1895 - 1900",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O1242907/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O1242907/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2010CT5853/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1908,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O1242907/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2010CT5853/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1908,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2010CT5853",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O1242907/canvas/c0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O1242907",
+    "@format": "text/html"
+  }
+}

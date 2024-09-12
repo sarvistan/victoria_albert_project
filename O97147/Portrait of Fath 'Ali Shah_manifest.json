@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O97147/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Portrait of Fath 'Ali Shah",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Portrait of Fath 'Ali Shah"
+    },
+    {
+      "label": "Object Type",
+      "value": "Oil painting"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Full-length portrait of the Qajar ruler Fath 'Ali Shah, probably by 'Abdallah Khan. Iran, probably Tehran, 1797-1834."
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Oil on canvas"
+    },
+    {
+      "label": "Place",
+      "value": "Iran (made)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "707-1876"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O97147/manifest.json"
+    }
+  ],
+  "description": "Full-length portrait of the Qajar ruler Fath 'Ali Shah, probably by 'Abdallah Khan. Iran, probably Tehran, 1797-1834.",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O97147/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O97147/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2006AF6960/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1401,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O97147/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2006AF6960/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1401,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2006AF6960",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O97147/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O97147/canvas/c1",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2006BD5624/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1247,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O97147/canvas/c1/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2006BD5624/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1247,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2006BD5624",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O97147/canvas/c1"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O97147/canvas/c2",
+          "@type": "sc:Canvas",
+          "label": "Image 2",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2017JV6869/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 1792,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O97147/canvas/c2/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2017JV6869/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 1792,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2017JV6869",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O97147/canvas/c2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O97147",
+    "@format": "text/html"
+  }
+}

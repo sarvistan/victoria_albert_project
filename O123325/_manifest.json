@@ -1,0 +1,277 @@
+{
+  "@id": "https://iiif.vam.ac.uk/collections/O123325/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Doll",
+  "metadata": [
+    {
+      "label": "Object Type",
+      "value": "Doll"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Wax doll dressed in Iranian costume, France and Iran, 1875-1895"
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "The wax doll is much damaged by heat and age"
+    },
+    {
+      "label": "Place",
+      "value": "Iran (made)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "ME.1:1 to 4-2002"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O123325/manifest.json"
+    }
+  ],
+  "description": "Wax doll dressed in Iranian costume, France and Iran, 1875-1895",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O123325/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2021MW8134/full/!100,100/0/default.jpg",
+          "height": 2500,
+          "width": 2094,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2021MW8134/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2500,
+                "width": 2094,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2021MW8134",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c0"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c1",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2021MW8135/full/!100,100/0/default.jpg",
+          "height": 1667,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c1/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2021MW8135/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1667,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2021MW8135",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c1"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c2",
+          "@type": "sc:Canvas",
+          "label": "Image 2",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2018KX9780/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c2/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2018KX9780/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2018KX9780",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c2"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c3",
+          "@type": "sc:Canvas",
+          "label": "Image 3",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2018KX9782/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c3/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2018KX9782/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2018KX9782",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c3"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c4",
+          "@type": "sc:Canvas",
+          "label": "Image 4",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2018KX9777/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c4/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2018KX9777/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2018KX9777",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c4"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c5",
+          "@type": "sc:Canvas",
+          "label": "Image 5",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2018KX9778/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c5/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2018KX9778/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2018KX9778",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c5"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c6",
+          "@type": "sc:Canvas",
+          "label": "Image 6",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2018KX9779/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c6/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2018KX9779/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2018KX9779",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c6"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c7",
+          "@type": "sc:Canvas",
+          "label": "Image 7",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2018KX9781/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O123325/canvas/c7/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2018KX9781/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2018KX9781",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O123325/canvas/c7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O123325",
+    "@format": "text/html"
+  }
+}

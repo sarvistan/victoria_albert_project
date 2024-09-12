@@ -1,0 +1,82 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.vam.ac.uk/collections/O108133/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Tile",
+  "metadata": [
+    {
+      "label": "Object Type",
+      "value": "Tile"
+    },
+    {
+      "label": "Brief Description",
+      "value": "Glazed earthenware tile in the form of a 12-pointed star, Iran (Khargird), about 1444."
+    },
+    {
+      "label": "Materials and Techniques",
+      "value": "Earthenware under coloured glazes applied in the <i>cuerda seca</i> technique"
+    },
+    {
+      "label": "Place",
+      "value": "Iran (made)"
+    },
+    {
+      "label": "Accession Number",
+      "value": "C.747-1909"
+    },
+    {
+      "label": "Rights Statement",
+      "value": "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+    },
+    {
+      "label": "Manifest",
+      "value": "https://iiif.vam.ac.uk/collections/O108133/manifest.json"
+    }
+  ],
+  "description": "Glazed earthenware tile in the form of a 12-pointed star, Iran (Khargird), about 1444.",
+  "attribution": "\u00a9Victoria and Albert Museum, London",
+  "license": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo": "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://iiif.vam.ac.uk/collections/O108133/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.vam.ac.uk/collections/O108133/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 0",
+          "thumbnail": "https://framemark.vam.ac.uk/collections/2006AC9169/full/!100,100/0/default.jpg",
+          "height": 1875,
+          "width": 2500,
+          "images": [
+            {
+              "@id": "https://iiif.vam.ac.uk/collections/O108133/canvas/c0/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://framemark.vam.ac.uk/collections/2006AC9169/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1875,
+                "width": 2500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://framemark.vam.ac.uk/collections/2006AC9169",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.vam.ac.uk/collections/O108133/canvas/c0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "http://collections.vam.ac.uk/item/O108133",
+    "@format": "text/html"
+  }
+}
